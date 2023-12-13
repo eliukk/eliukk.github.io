@@ -164,5 +164,23 @@
 			]
 		}
 	],
-	"structures": []
+	"structures": [
+		{
+			"@id": "http://example.org/iiif/book1/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"http://example.org/iiif/book1/range/intro"
+			]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/intro",
+			"@type": "sc:Range",
+			"label": "Introduction",
+			"canvases": [
+				"http://256fbb95-5c7b-493d-a709-bf46a0c7ceac"
+			]
+		}
+	]
 }
