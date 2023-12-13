@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://5a562a26-3d23-474f-85af-94aad2450175",
 	"@type": "sc:Manifest",
-	"label": "Wiipuri 1901, two pages",
+	"label": "Wiipuri 1901",
 	"metadata": [ {"label": "ISSN", "value": "fk14883"},
     {"label": "Published", "value": "1.10.1901"},
 	{"label": "Publisher", "value": "Viipurin Uusi Kirjapaino- ja Sanomalehti Oy"},
@@ -171,16 +171,24 @@
 			"label": "Table of Content",
 			"viewingHint": "top",
 			"ranges": [
-				"http://example.org/iiif/book1/range/intro"
+				"http://example.org/iiif/book1/range/p1",
+				"http://example.org/iiif/book1/range/p2"
 			]
 		},
 		{
-			"@id": "http://example.org/iiif/book1/range/intro",
+			"@id": "http://example.org/iiif/book1/range/p1",
 			"@type": "sc:Range",
-			"label": "Introduction",
+			"label": "Wiipuri 1901 p.1",
 			"canvases": [
 				"http://256fbb95-5c7b-493d-a709-bf46a0c7ceac"
 			]
-		}
-	]
+		},
+		{
+			"@id": "http://example.org/iiif/book1/range/p2",
+			"@type": "sc:Range",
+			"label": "Wiipuri 1901 p.2",
+			"canvases": [
+				"http://7fde1d41-46be-42d4-a5cc-4e9f85c5c6ac"
+			]
+		}	]
 }
