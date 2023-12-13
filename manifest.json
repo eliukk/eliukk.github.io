@@ -1,0 +1,162 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://5a562a26-3d23-474f-85af-94aad2450175",
+	"@type": "sc:Manifest",
+	"label": "Wiipuri 1901 and 1904",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "fi"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://7b407499-dba2-4690-a1bb-2848965a0fef",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://7dda2e5c-d9a9-4454-890f-9f9207a7e7f7",
+					"@type": "sc:Canvas",
+					"label": "Wiipuri 1901",
+					"height": 3515,
+					"width": 2601,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://256fbb95-5c7b-493d-a709-bf46a0c7ceac",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.europeana.eu/image/RGLUUYEZRR7MK6CYH2WKVIDZCPFGCSQEEFCLMTZWMRRTZCLMYF5A/presentation_images/5a4ba7b0-0222-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1901/10/01/228_1/19011001_228_1-0001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.europeana.eu/image/RGLUUYEZRR7MK6CYH2WKVIDZCPFGCSQEEFCLMTZWMRRTZCLMYF5A/presentation_images/5a4ba7b0-0222-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1901/10/01/228_1/19011001_228_1-0001",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3515,
+								"width": 2601
+							},
+							"on": "http://7dda2e5c-d9a9-4454-890f-9f9207a7e7f7"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d1951a2e-f920-4b60-9005-6a0eedbe8c3d",
+					"@type": "sc:Canvas",
+					"label": "Wiipuri 1904",
+					"height": 3549,
+					"width": 2552,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2a86228d-f28e-484d-ba68-03319f88ef27",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.europeana.eu/image/3MDZFJ2IBJJPZXFLKRNY7TQJE57GDVSTYA3WQRIVKCMZFQ7QMLLQ/presentation_images/6cfe0930-0217-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1904/04/19/89_1/19040419_89_1-0001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.europeana.eu/image/3MDZFJ2IBJJPZXFLKRNY7TQJE57GDVSTYA3WQRIVKCMZFQ7QMLLQ/presentation_images/6cfe0930-0217-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1904/04/19/89_1/19040419_89_1-0001",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3549,
+								"width": 2552
+							},
+							"on": "http://d1951a2e-f920-4b60-9005-6a0eedbe8c3d"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
