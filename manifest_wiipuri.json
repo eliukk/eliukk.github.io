@@ -171,8 +171,7 @@
 			"label": "Table of Content",
 			"viewingHint": "top",
 			"ranges": [
-				"http://example.org/iiif/book1/range/p1",
-				"http://example.org/iiif/book1/range/p2"
+				"http://example.org/iiif/book1/range/p1"
 			]
 		},
 		{
