@@ -2,13 +2,13 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://5a562a26-3d23-474f-85af-94aad2450175",
 	"@type": "sc:Manifest",
-	"label": "Wiipuri 1901 and 1904",
-	"metadata": [ {"label": "ISSN", "value": "Anne Author"},
-    {"label": "Published", "value": [
-        {"@value": "Paris, circa 1400", "@language": "en"},
-        {"@value": "Paris, environ 14eme siecle", "@language": "fr"}
-        ]
-    }],
+	"label": "Wiipuri 1901, two pages",
+	"metadata": [ {"label": "ISSN", "value": "fk14883"},
+    {"label": "Published", "value": "1.10.1901"},
+	{"label": "Publisher", "value": "Viipurin Uusi Kirjapaino- ja Sanomalehti Oy"},
+	{"label": "Place of Publication", "value": "Viipuri"},
+	{"label": "Language", "value": "fin"},
+	{"label": "Repository", "value": "National Library of Finland"}],
 	"description": [
 		{
 			"@value": "[IIIF testing with old finnish newspapers]",
@@ -16,7 +16,7 @@
 		}
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "National Library's Digital Collections",
+	"attribution": "[National Library's Digital Collections]",
 	"viewingHint": "paged",
 	"sequences": [
 		{
@@ -32,7 +32,7 @@
 				{
 					"@id": "http://7dda2e5c-d9a9-4454-890f-9f9207a7e7f7",
 					"@type": "sc:Canvas",
-					"label": "Wiipuri 1901",
+					"label": "Wiipuri 1901 p.1",
 					"height": 3515,
 					"width": 2601,
 					"images": [
@@ -96,30 +96,30 @@
 					"related": ""
 				},
 				{
-					"@id": "http://d1951a2e-f920-4b60-9005-6a0eedbe8c3d",
+					"@id": "http://7fde1d41-46be-42d4-a5cc-4e9f85c5c6ac",
 					"@type": "sc:Canvas",
-					"label": "Wiipuri 1904",
-					"height": 3549,
-					"width": 2552,
+					"label": "Wiipuri 1901 p.2",
+					"height": 3544,
+					"width": 2634,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://2a86228d-f28e-484d-ba68-03319f88ef27",
+							"@id": "http://a2bb6f74-6dd6-456c-9b29-75f4311eb8ac",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "https://iiif.europeana.eu/image/3MDZFJ2IBJJPZXFLKRNY7TQJE57GDVSTYA3WQRIVKCMZFQ7QMLLQ/presentation_images/6cfe0930-0217-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1904/04/19/89_1/19040419_89_1-0001/full/full/0/default.jpg",
+								"@id": "https://iiif.europeana.eu/image/RGLUUYEZRR7MK6CYH2WKVIDZCPFGCSQEEFCLMTZWMRRTZCLMYF5A/presentation_images/5a4ba7b0-0222-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1901/10/01/228_1/19011001_228_1-0002/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://iiif.europeana.eu/image/3MDZFJ2IBJJPZXFLKRNY7TQJE57GDVSTYA3WQRIVKCMZFQ7QMLLQ/presentation_images/6cfe0930-0217-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1904/04/19/89_1/19040419_89_1-0001",
+									"@id": "https://iiif.europeana.eu/image/RGLUUYEZRR7MK6CYH2WKVIDZCPFGCSQEEFCLMTZWMRRTZCLMYF5A/presentation_images/5a4ba7b0-0222-11e6-a696-fa163e2dd531/node-4/image/NLF/Wiipuri/1901/10/01/228_1/19011001_228_1-0002",
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
 											"formats": [
-												"tif",
 												"jpg",
+												"tif",
 												"gif",
 												"png"
 											],
@@ -153,10 +153,10 @@
 										}
 									]
 								},
-								"height": 3549,
-								"width": 2552
+								"height": 3544,
+								"width": 2634
 							},
-							"on": "http://d1951a2e-f920-4b60-9005-6a0eedbe8c3d"
+							"on": "http://7fde1d41-46be-42d4-a5cc-4e9f85c5c6ac"
 						}
 					],
 					"related": ""
